@@ -29,7 +29,7 @@ import plotly.graph_objects as go
 
 
 st.set_page_config(layout="wide")
-
+@st.cache
 def get_data(filename):
     data = pd.read_csv(filename)
 
