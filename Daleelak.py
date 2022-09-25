@@ -23,6 +23,7 @@ import hydralit_components as hc
 import streamlit.components.v1 as html
 from streamlit_option_menu import option_menu
 import fontawesome as fa
+import plotly.graph_objects as go
 #from st_aggrid import AgGrid
 
 
@@ -41,7 +42,6 @@ data12 = df
 @st.cache
 
 #Figures#
-import plotly.graph_objects as go
 
 st.markdown(
         f"""
