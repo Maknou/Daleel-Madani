@@ -35,7 +35,7 @@ def get_data(filename):
 
     return data
 
-df = get_data("cleaned_data_31_08_22.csv")
+df = get_data("Data/cleaned_data_31_08_22.csv")
 
 data12 = df
 
