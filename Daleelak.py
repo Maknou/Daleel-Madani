@@ -235,10 +235,10 @@ if menu_id == "Home":
         hc.info_card(title='Distinct Professions',title_text_size="2rem", content_text_size="1.4rem", content=jobs_value, theme_override=theme_1)
 
     with cc[1]:
-        hc.info_card(title='Job Vacancies',title_text_size="2rem", content_text_size="1.4rem", content=num_of_titles, theme_override=theme_2)
+        hc.info_card(title='Job Vacancies',title_text_size="1.8rem", content_text_size="1.4rem", content=num_of_titles, theme_override=theme_2)
 
     with cc[2]:
-        hc.info_card(title='Civil Society Organizations', title_text_size="2rem", content_text_size="1.4rem", content=companies_value, theme_override=theme_3)
+        hc.info_card(title='Civil Society Organizations', title_text_size="1.8rem", content_text_size="1.4rem", content=companies_value, theme_override=theme_3)
 
     with cc[3]:
         hc.info_card(title='Types of Majors', title_text_size="2rem", content_text_size="1.4rem", content=majors_value, theme_override=theme_4)
