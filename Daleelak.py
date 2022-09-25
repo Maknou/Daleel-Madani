@@ -29,10 +29,14 @@ import fontawesome as fa
 
 st.set_page_config(layout="wide")
 
-df=pd.read_csv("C:/Users/Makram/Downloads/cleaned_data_31_08_22.csv")
-#df2=pd.read_csv("C:/Users/Makram/Downloads/cleaned_data_desc_title.csv")
+def get_data(filename):
+    data = pd.read_csv(filename)
 
-data12 = df
+    return data
+
+data = get_data("C:/Users/Makram/Downloads/cleaned_data_31_08_22.csv")
+
+data12 = data
 
 @st.cache
 
