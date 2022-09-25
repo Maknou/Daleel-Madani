@@ -26,7 +26,7 @@ import fontawesome as fa
 import plotly.graph_objects as go
 #from st_aggrid import AgGrid
 
-@st.cache
+
 
 st.set_page_config(layout="wide")
 
