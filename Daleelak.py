@@ -261,7 +261,7 @@ if menu_id == "Home":
         hc.info_card(title='Full Time Contract Offer',title_text_size="2rem", content_text_size="1.4rem",  content=f'{per_top_cont}%', theme_override=theme_9)
 
     with cc2[1]:
-        hc.info_card(title='Experience of 2-5 years', title_text_size="2rem", content_text_size="1.4rem",, content=f'{per_top_exp}%', theme_override=theme_10)
+        hc.info_card(title='Experience of 2-5 years', title_text_size="2rem", content_text_size="1.4rem", content=f'{per_top_exp}%', theme_override=theme_10)
 
     with cc2[2]:
         hc.info_card(title='Salary Range $1200-$2500',title_text_size="2rem", content_text_size="1.4rem", content=f'{per_top_sal}%', theme_override=theme_11)
