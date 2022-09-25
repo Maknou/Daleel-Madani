@@ -34,17 +34,11 @@ def get_data(filename):
 
     return data
 
-data = get_data("C:/Users/Makram/Downloads/cleaned_data_31_08_22.csv")
+df = get_data("cleaned_data_31_08_22.csv")
 
-data12 = data
+data12 = df
 
 @st.cache
-
-def load_data(nrows):
-    data = pd.read_csv(data12, nrows=nrows)
-    lowercase = lambda x: str(x).lower()
-    data.rename(lowercase, axis='columns', inplace=True)
-    return data
 
 #Figures#
 import plotly.graph_objects as go
