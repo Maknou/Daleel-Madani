@@ -26,7 +26,7 @@ import fontawesome as fa
 import plotly.graph_objects as go
 #from st_aggrid import AgGrid
 
-
+@st.cache
 
 st.set_page_config(layout="wide")
 
@@ -39,7 +39,7 @@ df = get_data("cleaned_data_31_08_22.csv")
 
 data12 = df
 
-@st.cache
+
 
 #Figures#
 
