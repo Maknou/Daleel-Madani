@@ -267,7 +267,7 @@ if menu_id == "Home":
         hc.info_card(title='Salary Range $1200-$2500',title_text_size="1.8rem", content_text_size="1.4rem", content=f'{per_top_sal}%', theme_override=theme_11)
 
     with cc2[3]:
-        hc.info_card(title='Intermediate / experienced',title_text_size="1.8rem", content_text_size="1.4rem", content=f'{per_top_lev}%', theme_override=theme_12)
+        hc.info_card(title='Intermediate/experienced',title_text_size="1.8rem", content_text_size="1.4rem", content=f'{per_top_lev}%', theme_override=theme_12)
 
     with cc2[4]:
         hc.info_card(title='Bachelor Degree',title_text_size="1.8rem", content_text_size="1.4rem", content=f'{per_top_bac}%', theme_override=theme_13)
